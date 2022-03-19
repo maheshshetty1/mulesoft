@@ -14,7 +14,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 			<ee:message >
 				<ee:set-payload ><![CDATA[output text/plain
 ---
-"Hello World"]]></ee:set-payload>
+" Hello World "]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
 	</flow>
