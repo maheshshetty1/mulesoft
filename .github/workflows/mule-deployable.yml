@@ -28,7 +28,7 @@ jobs:
     - uses: actions/upload-artifact@master
       with:
        name: artifacts
-       path: target/*.jar
+       path: hello-wold/target/*.jar
        
   deploy:
    name: Deploy the project
