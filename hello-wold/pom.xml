@@ -34,12 +34,12 @@
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.4.0</muleVersion>
-						<username>mciatrainee</username>
-						<password>MciaTrainee@123</password>
+						<username>mciatrainee2</username>
+						<password>MciaTrainee2@123</password>
 						<applicationName>hello-world</applicationName>
-						<environment>dev</environment>
+						<environment>Sandbox</environment>
 						<workerType>MICRO</workerType>
-						<businessGroupId>7154bbd3-2f92-4453-9777-0064ae8ae24e</businessGroupId>
+						<businessGroupId>33a34e19-2951-4416-ae95-a925bc58da73</businessGroupId>
 						<workers>1</workers>
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
