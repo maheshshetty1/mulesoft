@@ -29,10 +29,20 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-					<standaloneDeployment>
-						<muleVersion>${app.runtime}</muleVersion>
-						<muleHome>${mule.home}</muleHome>
-					</standaloneDeployment>
+					<!-- <standaloneDeployment> <muleVersion>${app.runtime}</muleVersion> 
+						<muleHome>${mule.home}</muleHome> </standaloneDeployment> -->
+					<cloudHubDeployment>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<muleVersion>4.4.0</muleVersion>
+						<username>mciatrainee</username>
+						<password>MciaTrainee@123</password>
+						<applicationName>hello-world</applicationName>
+						<environment>Sandbox</environment>
+						<workerType>MICRO</workerType>
+						<businessGroupId>7154bbd3-2f92-4453-9777-0064ae8ae24e</businessGroupId>
+						<workers>1</workers>
+						<objectStoreV2>true</objectStoreV2>
+					</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
