@@ -49,6 +49,7 @@ jobs:
        USERNAME: "mciatrainee"
        PASSWORD: "MciaTrainee@123"
       run: |
+       echo $(ls)
        artifactName=$(ls *.jar | head -1)   
        echo $(artifactName)
        mvn mule:deploy --file hello-wold/pom.xml -Dmule.artifact=$artifactName -Danypoint.userName=”$USERNAME” -Danypoint.password=”$PASSWORD”
