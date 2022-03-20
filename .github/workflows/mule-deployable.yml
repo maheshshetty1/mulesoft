@@ -20,3 +20,6 @@ jobs:
 
     - name: Build project with Maven
       run: mvn -B package --file hello-wold/pom.xml
+      
+    - name: Deploy project with Maven
+      run: mvn deploy -Dmule.home=C:\Learning\Mulesoft\MuleServers\Server1\mule-enterprise-standalone-4.4.0
