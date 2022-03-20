@@ -36,7 +36,7 @@
 						<muleVersion>4.4.0</muleVersion>
 						<username>mciatrainee2</username>
 						<password>MciaTrainee2@123</password>
-						<applicationName>hello-world</applicationName>
+						<applicationName>hello-world12345</applicationName>
 						<environment>Sandbox</environment>
 						<workerType>MICRO</workerType>
 						<businessGroupId>33a34e19-2951-4416-ae95-a925bc58da73</businessGroupId>
