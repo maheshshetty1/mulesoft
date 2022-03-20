@@ -15,7 +15,7 @@ jobs:
       with:
        java-version: 1.8
     - name: Build
-      run: mvn -B package --hello-world/pom.xml
+      run: mvn -B package --file hello-world/pom.xml
     - name: Stamp artifact filename with commit hash
       run: | 
         artifactName1=$(ls target/*.jar | head -1) 
