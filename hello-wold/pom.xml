@@ -37,7 +37,7 @@
 						<username>mciatrainee</username>
 						<password>MciaTrainee@123</password>
 						<applicationName>hello-world</applicationName>
-						<environment>Sandbox</environment>
+						<environment>dev</environment>
 						<workerType>MICRO</workerType>
 						<businessGroupId>7154bbd3-2f92-4453-9777-0064ae8ae24e</businessGroupId>
 						<workers>1</workers>
