@@ -49,7 +49,7 @@ jobs:
        USERNAME: "mciatrainee"
        PASSWORD: "MciaTrainee@123"
       run: |
-       artifactName=$(ls *.jar | head -1)        mvn mule:deploy -Dmule.artifact=$artifactName -Danypoint.userName=”$USERNAME” -Danypoint.password=”$PASSWORD”
+       artifactName=$(ls *.jar | head -1)   mvn deploy -Dmule.artifact=$artifactName -Danypoint.userName=”$USERNAME” -Danypoint.password=”$PASSWORD”
        
     
       
